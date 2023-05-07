@@ -14,13 +14,13 @@ The Retirement RoboAdvisor is an interactive chatbot designed to provide persona
 #### Initial RoboAdvisor Bot
 The initial RoboAdvisor bot is set up with a single intent, `recommendPortfolio`, which initiates a conversation about the user's retirement investment requirements. It captures essential information such as the user's name, age, investment amount, and risk level preference using slots. Upon receiving this data, the bot provides a confirmation message before proceeding to suggest an appropriate investment portfolio.
 
-![Initial Bot Demo GIF](screen_shots/original_roboadviser.gif)
+![Initial Bot Demo GIF](screenshots/original_roboadviser.gif)
 
 
 #### RoboAdvisor Enhanced with Lambda Function
 The enhanced RoboAdvisor integrates an Amazon Lambda function to validate the user's input and generate personalized investment portfolio recommendations based on their preferred risk level. The Lambda function checks that the user's age and investment amount fall within acceptable ranges before providing a tailored portfolio suggestion according to their risk preference.
 
-![Enhanced Bot with Lambda Demo GIF](screen_shots/lambda_bot.gif)
+![Enhanced Bot with Lambda Demo GIF](screenshots/lambda_bot.gif)
 
 ### Project Steps Overview
 #### Step 1: Configuring the Initial RoboAdvisor
