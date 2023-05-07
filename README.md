@@ -27,12 +27,12 @@ The enhanced RoboAdvisor integrates an Amazon Lambda function to validate the us
 During this step, a new Amazon Lex bot was created, and the `recommendPortfolio` intent was added. The necessary slots were configured to gather user input, and a confirmation prompt was set up to ensure user satisfaction before proceeding with the portfolio recommendation.
 
 #### Step 2: Building and Testing the RoboAdvisor
-After setting up the initial bot, it was built and tested using the Amazon Lex console's "Test bot" pane. The bot's accurate response and successful collection of the required user input were verified. A screenshot and video of the working bot was then captured and saved in the `screen_shots` folder.
+After setting up the initial bot, it was built and tested using the Amazon Lex console's "Test bot" pane. The bot's accurate response and successful collection of the required user input were verified. A screenshot and video of the working bot was then captured and saved in the `screenshots` folder.
 
 #### Step 3: Enhancing the RoboAdvisor with an Amazon Lambda Function
 In this step, a new Amazon Lambda function called `recommendPortfolio` was created using Python 3.7. Validation rules were implemented to ensure that the user's age and investment amount were within acceptable ranges. Logic was also added to generate investment recommendations based on the user's risk level preference.
 
-Next, the Lambda function was tested using the test events stored in the repository folder `Test_Events` and integrated with the Amazon Lex bot by selecting it in the "Lambda initialization and validation" and "Fulfillment" sections. The bot was built and tested using both valid and invalid data for the slots. Finally, a screenshot and video showcasing the functioning bot were recorded and saved in the `screen_shots` folder.
+Next, the Lambda function was tested using the test events stored in the repository folder `Test_Events` and integrated with the Amazon Lex bot by selecting it in the "Lambda initialization and validation" and "Fulfillment" sections. The bot was built and tested using both valid and invalid data for the slots. Finally, a screenshot and video showcasing the functioning bot were recorded and saved in the `screenshots` folder.
 
 ### Contributors
 Alexander Likhachev
