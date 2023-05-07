@@ -7,7 +7,7 @@ The Retirement RoboAdvisor is an interactive chatbot designed to provide persona
 * AWS Services:
  * Amazon Lex - Conversational bot
  * Amazon Lambda - Serverless backend for data validation and processing
-* Programming Language: Python 3.7.13](https://www.python.org/downloads/release/python-385/)
+* Programming Language: [Python 3.7.13](https://www.python.org/downloads/release/python-385/)
 
 ### Bot Configurations
 
@@ -33,3 +33,9 @@ After setting up the initial bot, it was built and tested using the Amazon Lex c
 In this step, a new Amazon Lambda function called `recommendPortfolio` was created using Python 3.7. Validation rules were implemented to ensure that the user's age and investment amount were within acceptable ranges. Logic was also added to generate investment recommendations based on the user's risk level preference.
 
 Next, the Lambda function was tested using the test events stored in the repository folder `Test_Events` and integrated with the Amazon Lex bot by selecting it in the "Lambda initialization and validation" and "Fulfillment" sections. The bot was built and tested using both valid and invalid data for the slots. Finally, a screenshot and video showcasing the functioning bot were recorded and saved in the `screen_shots` folder.
+
+### Contributors
+Alexander Likhachev
+
+### License
+MIT
